@@ -1,3 +1,10 @@
+# hql scripts (we don't need them in this repo)
+*.hql
+hql_scripts/
+
+# Exclude datasets
+data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
