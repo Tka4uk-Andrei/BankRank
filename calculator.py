@@ -10,7 +10,8 @@ user_data_heading = ["id_user", "first_name", "last_name", "f_status",
                      "data_pages", "friend", "has_photo", "subscriptions",
                      "sex"]
 
-calculated_user_data_heading = ["id_user", "first_name", "last_name", "sex",
+# TODO add "first_name", "last_name" fields
+calculated_user_data_heading = ["id_user", "sex",
                                 "first_name_mark", "last_name_mark", "f_status_mark",
                                 "age_users_mark", "city_mark", "education_mark", "language_mark", 
                                 "family_flag_mark", "contact_flag_mark", "books_mark", "interes_mark",
@@ -315,6 +316,3 @@ if __name__ == '__main__':
 
         writer.writeheader()
         writer.writerows(results)
-
-
-
